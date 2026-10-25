@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+contacts.csv
+sent_log.csv
