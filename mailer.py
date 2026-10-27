@@ -4,6 +4,7 @@
 Every send attempt is recorded in a history CSV (default: email_history.csv).
 """
 
+
 import argparse
 import csv
 import os
