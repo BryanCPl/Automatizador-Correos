@@ -100,7 +100,7 @@ def main() -> int:
         print("[ERROR] SMTP_PORT must be between 1 and 65535.", file=sys.stderr)
         return 1
 
-    use_tls = os.getenv("SMTP_USE_TLS", "true").strip().lower() in ("true", "1", "yes")
+    use_tls = os.getenv("SMTP_USE_TLS",  "true").strip().lower() in ("true", "1", "yes")
 
     valid_contacts = []
     for row in contacts:
